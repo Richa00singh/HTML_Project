@@ -1,0 +1,22 @@
+body{
+
+    text-align: center;
+justify-content: center;
+justify-items: center;
+background:linear-gradient(blue,purple);
+display: flex;
+flex-wrap: wrap;
+
+}
+.container{
+     
+    background-color: rgb(191, 190, 244);
+    margin: 70px;
+    padding: 70px;
+    width: 500px;
+    border: 5px solid black;
+    border-style: dotted;
+    position: relative;
+    
+    
+}

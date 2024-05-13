@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form using html</title>
+    <link rel="stylesheet" href="htmlwork.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+ <div class="registration">
+    <h1><mark>Registration Form</mark></h1> 
+
+ 
+    
+            <div class="container">
+            <form action="form.php">
+            <label for="fullname"><i class="fa fa-user"> Name:</i> </label>
+            <input type="text"placeholder="fullname"><br><br>
+            <label for="number"><i class="fa fa-phone"> Phone:</i></label>
+            <input type="number"placeholder="phone"><br><br>
+            <label for="email"><i class="fa fa-envelope"></i> Email :</label>
+            <input type="text"placeholder="email"><br><br>
+            <label for="password"><i class="fa fa-lock"></i> Password :</label>
+            <input type="password"placeholder="password"id="password"><br><br>
+            <label for="radio"><i class="fa fa-venus-mars"></i> Gender :</label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">lgbtq <br><br>
+            <label for="date"><i class="fa fa-calendar-days"></i> Date of birth :</label>
+            <input type="date" placeholder="dob"><br><br>
+            <label for="checkbox">Hobbies :</label>
+            <input type="checkbox">Playing
+            <input type="checkbox">Dancing
+            <input type="checkbox">Reading <br><br>
+            <label for="choosecourse">Choosecourse</label>
+            <select name="choosecourse" id="choosecourse"><br><br>
+                <option>BCA</option>
+                <option>Betech</option>
+                <option>MBA</option><i class="fa fa-face-smile"></i>
+            </select><br><br>
+            <label for="address">Address :</label>
+            <textarea name="Address" id="Address" placeholder="give your addr... here"></textarea><br><br>
+            <input type="submit" value="submit">
+
+            <input type="reset" value="reset">
+        
+        </form>
+            </div>
+    
+</body>
+</html>
